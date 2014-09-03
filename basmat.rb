@@ -2,7 +2,7 @@ require "formula"
 
 class Basmat < Formula
   homepage "https://github.com/aycabta/basmat"
-  url 'https://github.com/aycabta/basmat.git', :tag => "v#1.0.0"
+  url 'https://github.com/aycabta/basmat.git', :tag => "1.0.0"
   sha1 "67c0f10e45164c623033773643f4195f9b363bca"
   def install
     system "./configure", "--prefix=#{prefix}"
